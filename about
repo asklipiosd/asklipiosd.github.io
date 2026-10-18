@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<meta http-equiv="X-UA-Compatible" content="ie=edge">
+	<title>about - asklipiosd</title>
+</head>
+
+<body>
+	<nav>
+	<b>asklipiosd</b>
+	<a href="index.html">home</a>
+	<a href="about.html">about</a>
+	<a href="https://codeberg.org/asklipiosd">codeberg</a>
+	<a href="https://github.com/asklipiosd">github</a>
+	</nav>
+	<h1>About me</h1><p>I am a recreational programmer. I like reading. I currently use alpine linux but I am waiting to switch to <a href="https://derivelinux.org/">derive</a>. Once it gets a bit more mature. For my projects go to the <b>projects</b> column.</p><h1>About this site</h1><p>This site runs on a static site generator and markdown parser I guess written in <b>lua</b> and by the time you view this should be hosted on my <b>codeberg</b>. It is really bad and written in about 400 lines of code.</p>
+</body>
+
+<style>
+	img {
+		display: block;
+		max-width: 100%;
+		margin-inline: auto;
+		margin-block: 1em;
+	}
+	body {
+		font-family: sans-serif;
+		line-height: 1.25;
+		max-width: 50rem;
+		margin-left: auto;
+		margin-right: auto;
+		padding-left: 1em;
+		padding-right: 1em;
+	}
+</style>
+</html>
