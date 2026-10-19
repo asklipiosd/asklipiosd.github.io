@@ -15,7 +15,7 @@
 	<a href="https://codeberg.org/asklipiosd">codeberg</a>
 	<a href="https://github.com/asklipiosd">github</a>
 	</nav>
-	<h1>About me</h1><p>I am a recreational programmer. I like reading. I currently use alpine linux but I am waiting to switch to <a href="https://derivelinux.org/">derive</a>. Once it gets a bit more mature. For my projects go to the <b>projects</b> column.</p><h1>About this site</h1><p>This site runs on a static site generator and markdown parser I guess written in <b>lua</b> and by the time you view this should be hosted on my <b>codeberg</b>. It is really bad and written in about 400 lines of code.</p>
+	<h1>About me</h1><p>I am a recreational programmer. I like reading. I currently use alpine linux but I am waiting to switch to <a href="https://derivelinux.org/">derive</a>. Once it gets a bit more mature. For my projects go to the <b>projects</b> column.</p><h1>About this site</h1><p>This site runs on a static site generator and markdown parser I guess written in <b>lua</b> and by the time you view this should be hosted on my <b>codeberg</b>. It is really bad and written in about 400 lines of code.</p><h1>Contact</h1><p>Feel free to contact me, I don't know why you would want to but anyways (summary: just email me) Don't feel bad if I don't answer quickly, I am bad with this sort of stuff.</p><ul><li>email: <b>asklipiosdimogou@gmail.com</b></li><li>discord: <b>asklipiosd</b> (don't use it much just email me)</li><li>probably <b>asklipios</b> or <b>asklipiosd</b> on any irc or whatever</li></ul>
 </body>
 
 <style>
