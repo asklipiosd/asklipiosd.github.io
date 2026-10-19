@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<meta http-equiv="X-UA-Compatible" content="ie=edge">
+	<title>site&#x2F;articles&#x2F;programming&#x2F;how_this_site_was_made.md - asklipiosd</title>
+</head>
+
+<body>
+	<nav>
+	<b>asklipiosd</b>
+	<a href="index.html">home</a>
+	<a href="about.html">about</a><a href="programming.html">programming</a>
+	<a href="https://codeberg.org/asklipiosd">codeberg</a>
+	<a href="https://github.com/asklipiosd">github</a>
+	</nav>
+	<h1>How this website was made</h1><h2>How it was not made</h2><p>I once tried <a href="https://ghost.org/">ghost</a> which is a full stack blog generator thing, with themes, accounts, email lists and all that stuff we all <b>love</b>. I also tried <a href="https://gohugo.io/">hugo</a> which was much better still I didn't really have the energy to learn how to use it. I also am interested in <a href="https://werc.cat-v.org/">werc</a> but it is not really a static  site generator and I am not going to desecrate the plan 9 ethos by hosting a werc site on github pages.</p><h2>How it was made</h2><p>I wanted to write more lua after writing <a href="https://github.com/asklipiosd/luaServe">luaserve</a>. So after configuring my editor (vis btw), I made the static site generator for this website in lua, using the wonderful <a href="https://github.com/Olivine-Labs/lustache">lustache</a> library for templating and a primitive markdown parser I wrote myself. Cool project I guess, I enjoyed it and hope I will write some more lua and improve the parser which is really regex based. It also doesn't have a metadata system which should change, probably sooner than later.</p><h2>What I learnt</h2><ul><li>Lua lacks the standard library out of the box for proper file system interaction</li><li>Tables are cool (to state the obvious)</li><li>Markdown parsers shouldn't use regex for everything</li><li>You don't need that much css to make something reasonable easy on the eyes</li><li>Github pages is pretty much the easiest way to host a site and codeberg pages don't work well in my experience</li><li>I should try something like <a href="https://git.sr.ht/~shrub900/mite">mite</a> or <b>werc</b> next time</li></ul>
+</body>
+
+<style>
+	img {
+		display: block;
+		max-width: 100%;
+		margin-inline: auto;
+		margin-block: 1em;
+	}
+	body {
+		font-family: sans-serif;
+		line-height: 1.25;
+		max-width: 50rem;
+		margin-left: auto;
+		margin-right: auto;
+		padding-left: 1em;
+		padding-right: 1em;
+	}
+</style>
+</html>
